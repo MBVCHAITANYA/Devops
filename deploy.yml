@@ -43,7 +43,6 @@
         daemon_reload: yes
         state: started
         enabled: yes
-
   handlers:
     - name: Restart Greeting
       systemd:
